@@ -59,7 +59,7 @@ Users must fill in these values themselves in `config_example.py`.
 **User responsibility.** Anyone who runs this code must follow Tokopedia's Terms & Conditions and the applicable laws. The author is not responsible for any misuse of this code. The scraper uses delays between requests and does not try to bypass the site's protection.
 
 ## 🚀 Experience the Live Dashboard
-Instead of just looking at static screenshots, interact with the data yourself! The dashboard is hosted on Power BI Service, allowing you to apply filters, slice by year, and explore the RFM segments directly in your browser.
+Instead of just looking at static screenshots, interact with the data yourself! The dashboard is hosted on Power BI Service.
 🔗 [Click here to launch the interactive dashboard](https://bit.ly/vista-tokopedia-dashboard)
 
 ## 📝 Future Improvements
