@@ -39,7 +39,7 @@ def check_environment():
             # CATATAN PENTING: URL target scraping sebenarnya TIDAK ADA DI SINI.
             # URL dan selector spesifik disimpan di config.py (yang tidak diunggah).
             page.goto(
-                "[Link URL]",
+                "",
                 wait_until='domcontentloaded',
                 timeout=30000
             )
