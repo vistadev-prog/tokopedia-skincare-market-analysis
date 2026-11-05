@@ -39,8 +39,6 @@ An end-to-end data analytics project analyzing the Indonesian skincare market (S
 - The CSS selectors for product name, price, rating, and units sold
 - Other specific settings that point to the structure of Tokopedia pages
 
-Users must fill in these values themselves in `config_example.py`.
-
 **What is not uploaded.**
 
 | Original file/folder | Reason |
