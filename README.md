@@ -50,7 +50,6 @@ Users must fill in these values themselves in `config_example.py`.
 
 | File | Description |
 |---|---|
-| `data/sample_sintetis.csv` | **Fictional** data. It only shows the column format. It is not real Tokopedia data. |
 | `verify_env_example.py` | Template with empty values |
 | `config_example.py` | Template with empty values |
 | `scraper_example.py` | Template with empty values |
