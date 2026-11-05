@@ -28,12 +28,6 @@ Based on the data analysis, these are the main findings:
 - **Data Modeling:** *Star Schema*, with relationships between the Product, Store, and Sales tables.
 - **DAX (Data Analysis Expressions):** Measures for Estimated Revenue and Median Units Sold, correlation calculation, and dynamic binning.
 
-## 📂 File Structure
-- `Tokopedia_Skincare_Dashboard.pbix` - Main Power BI file.
-- `data/sample_sintetis.csv` - **Fictional** data that shows the column format (not real data).
-- `config.example.py` - Configuration template with empty values.
-- `Images/` - Screenshots and other files used in this README.
-
 ## ⚠️ Disclaimer & Ethical Considerations
 **Purpose.** This project is made for learning and non-commercial use. The data was taken from public Tokopedia pages (*sunscreen* and *moisturizer* categories, maximum 5 pages per category) in October 2026. This project is not affiliated with, sponsored by, or endorsed by Tokopedia/TikTok. All brands and content belong to their respective owners.
 
