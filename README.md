@@ -8,25 +8,28 @@
 > This project is made only for **learning and non-commercial purposes**. To follow the platform's Terms of Service (ToS) and protect data privacy, **the raw scraped data, the specific selectors, and personal information (PII) are not uploaded** to this repository. This repository only shares anonymized, aggregated *insights* and synthetic sample data. *(See the full [Disclaimer & Ethical Considerations](#-disclaimer--ethical-considerations) at the bottom.)*
 
 ## 📌 Project Overview
-This project analyzes the *skincare* market (mainly *Moisturizer* and *Sunscreen*) on Tokopedia. The goal is to understand pricing strategy, customer trust, and market dominance. The dashboard gives *actionable insights* to sellers and brand managers. They can use these insights to improve pricing, store reputation, and regional targeting.
+An end-to-end data analytics project analyzing the Indonesian skincare market (Sunscreen & Moisturizer) on Tokopedia. This project aims to uncover pricing strategies, market dominance, and the impact of store reputation on sales volume.
 
 ## 🎯 Business Questions
 1. **Price & Sales:** Does a lower price always lead to higher sales volume?
 2. **Reputation & Trust:** Does a high product rating guarantee better sales? How does store type affect customer trust?
 3. **Market Dominance:** Which brands, store types, and locations take the biggest share of estimated revenue?
 
-## 💡 Key Insights
-Based on the data analysis, these are the main findings:
-- 💰 **Price vs. Sales:** There is only a **weak correlation (0.27)** between price and sales (log scale). 73% of products cost less than Rp100K (median: Rp75K). However, expensive products can still sell well. Price is not the main driver of sales.
-- ⭐ **Rating vs. Store Type:** Ratings are mostly high (9 out of 10 products have a rating between 4.8 and 5.0). This makes it hard to compare products by rating alone. But **store type** matters a lot. *Official Stores* and *Power Merchant Pro* stores sell much more than *Regular* stores.
-- 🏆 **Market Concentration:** The market is highly concentrated. **Official Stores** take **91.2%** of the estimated revenue. Also, the **Top 10 Brands** (led by Glad2Glow, Glowsophy, and The Originote) take **78.5%** of the total revenue.
-- 📍 **Geographic Dominance:** Revenue is concentrated in the **Greater Jakarta area (Jabodetabek)** (Kab. Tangerang, Kab. Bogor, Tangerang, Kab. Bekasi). This area controls almost **70%** of the estimated revenue.
+## 📊 Key Business Insights
+### 1. Reputation & Trust
+- **Rating Saturation:** 91% of products have a rating ≥ 4.8. Rating is no longer a differentiator; it's a baseline requirement.
+- **Store Type > Rating:** Official Stores and Power Merchant Pro dominate sales volume, proving that institutional trust outweighs individual product ratings.
+### 2. Market Dominance
+- **Revenue Concentration:** Official Stores control 91.2% of estimated revenue, despite holding less than 50% of the total product listings.
+- **Geographic Focus:** The market is heavily centralized in the Jabodetabek area (Tangerang, Bogor, Bekasi, Jakarta).
+### 3. Pricing Strategy
+- **Weak Price-Sales Correlation:** The correlation between price and sales volume is only 0.27. Cheaper products do not automatically sell better.
+- **The "Sweet Spot":** The highest competition is in the <Rp 50K range, but higher price ranges (Rp 100K-150K) show strong median sales, indicating a viable market for premium mass-market products.
 
-## 🛠️ Tools & Techniques
-- **Data Visualization & BI:** Power BI Desktop
-- **Data Transformation (ETL):** Power Query (data cleaning, handling missing values, creating price bins, and merging tables)
-- **Data Modeling:** *Star Schema*, with relationships between the Product, Store, and Sales tables.
-- **DAX (Data Analysis Expressions):** Measures for Estimated Revenue and Median Units Sold, correlation calculation, and dynamic binning.
+## 🛠️ Tech Stack
+- **Data Acquisition:** Python, Playwright (Web Scraping)
+- **Data Wrangling:** Python, Pandas, NumPy
+- **Business Intelligence:** Microsoft Power BI (DAX, Data Modeling)
 
 ## ⚠️ Disclaimer & Ethical Considerations
 **Purpose.** This project is made for learning and non-commercial use. The data was taken from public Tokopedia pages (*sunscreen* and *moisturizer* categories, maximum 5 pages per category) in October 2026. This project is not affiliated with, sponsored by, or endorsed by Tokopedia/TikTok. All brands and content belong to their respective owners.
@@ -62,10 +65,4 @@ Users must fill in these values themselves in `config_example.py`.
 Instead of just looking at static screenshots, interact with the data yourself! The dashboard is hosted on Power BI Service.
 🔗 [Click here to launch the interactive dashboard](https://bit.ly/vista-tokopedia-dashboard)
 
-## 📝 Future Improvements
-- Add *predictive analytics* to forecast sales based on seasonal trends.
-- Add *sentiment analysis* using product reviews to support the rating metric.
-- Create dynamic parameters so users can filter and simulate different pricing strategies.
-
----
 *Created by Vista Sasmita Padmanagara | Data Analyst Portfolio*
