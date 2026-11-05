@@ -3,7 +3,6 @@
 ![Dashboard Preview](dash_1.jpg)
 ![Dashboard Preview](dash_2.jpg)
 ![Dashboard Preview](dash_3.jpg)
-*(Replace with the link to your dashboard image or GIF)*
 
 > 🛡️ **Ethical Data & Compliance Notice:**
 > This project is made only for **learning and non-commercial purposes**. To follow the platform's Terms of Service (ToS) and protect data privacy, **the raw scraped data, the specific selectors, and personal information (PII) are not uploaded** to this repository. This repository only shares anonymized, aggregated *insights* and synthetic sample data. *(See the full [Disclaimer & Ethical Considerations](#-disclaimer--ethical-considerations) at the bottom.)*
@@ -43,7 +42,7 @@ Based on the data analysis, these are the main findings:
 - The CSS selectors for product name, price, rating, and units sold
 - Other specific settings that point to the structure of Tokopedia pages
 
-Users must fill in these values themselves in `config.py`.
+Users must fill in these values themselves in `config_example.py`.
 
 **What is not uploaded.**
 
@@ -58,15 +57,13 @@ Users must fill in these values themselves in `config.py`.
 | File | Description |
 |---|---|
 | `data/sample_sintetis.csv` | **Fictional** data. It only shows the column format. It is not real Tokopedia data. |
-| `config.example.py` | Configuration template with empty values |
+| `verify_env_example.py` | Template with empty values |
+| `config_example.py` | Template with empty values |
+| `scraper_example.py` | Template with empty values |
 
 **Personal data.** There are no seller or buyer names, contact details, addresses, or review texts. The analysis uses only aggregated numbers.
 
 **User responsibility.** Anyone who runs this code must follow Tokopedia's Terms & Conditions and the applicable laws. The author is not responsible for any misuse of this code. The scraper uses delays between requests and does not try to bypass the site's protection.
-
-## 🚀 How to View the Dashboard
-- **Interactive Dashboard:** [Link to Power BI Published Web / NovyPro]
-- **Download the `.pbix` file:** [Link to the .pbix file in this repo]
 
 ## 📝 Future Improvements
 - Add *predictive analytics* to forecast sales based on seasonal trends.
@@ -74,4 +71,4 @@ Users must fill in these values themselves in `config.py`.
 - Create dynamic parameters so users can filter and simulate different pricing strategies.
 
 ---
-*Created by [Your Name] | Data Analyst Portfolio*
+*Created by Vista Sasmita Padmanagara | Data Analyst Portfolio*
