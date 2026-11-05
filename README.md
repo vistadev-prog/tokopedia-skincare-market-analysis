@@ -4,10 +4,6 @@
 ![Dashboard Preview](dash_2.jpg)
 ![Dashboard Preview](dash_3.jpg)
 
-🚀 Experience the Live Dashboard
-Instead of just looking at static screenshots, interact with the data yourself! The dashboard is hosted on Power BI Service, allowing you to apply filters, slice by year, and explore the RFM segments directly in your browser.
-🔗 [Click here to launch the interactive dashboard](https://bit.ly/vista-tokopedia-dashboard)
-
 > 🛡️ **Ethical Data & Compliance Notice:**
 > This project is made only for **learning and non-commercial purposes**. To follow the platform's Terms of Service (ToS) and protect data privacy, **the raw scraped data, the specific selectors, and personal information (PII) are not uploaded** to this repository. This repository only shares anonymized, aggregated *insights* and synthetic sample data. *(See the full [Disclaimer & Ethical Considerations](#-disclaimer--ethical-considerations) at the bottom.)*
 
@@ -62,6 +58,10 @@ Users must fill in these values themselves in `config_example.py`.
 **Personal data.** There are no seller or buyer names, contact details, addresses, or review texts. The analysis uses only aggregated numbers.
 
 **User responsibility.** Anyone who runs this code must follow Tokopedia's Terms & Conditions and the applicable laws. The author is not responsible for any misuse of this code. The scraper uses delays between requests and does not try to bypass the site's protection.
+
+## 🚀 Experience the Live Dashboard
+Instead of just looking at static screenshots, interact with the data yourself! The dashboard is hosted on Power BI Service, allowing you to apply filters, slice by year, and explore the RFM segments directly in your browser.
+🔗 [Click here to launch the interactive dashboard](https://bit.ly/vista-tokopedia-dashboard)
 
 ## 📝 Future Improvements
 - Add *predictive analytics* to forecast sales based on seasonal trends.
