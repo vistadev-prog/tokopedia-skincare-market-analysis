@@ -1,6 +1,6 @@
 """
 Template konfigurasi. Salin file ini menjadi config.py, lalu isi nilai yang
-kosong. config.py TIDAK boleh di-commit (sudah ada di .gitignore).
+kosong.
 """
 
 from pathlib import Path
