@@ -5,7 +5,7 @@
 ![Dashboard Preview](dash_3.jpg)
 
 > 🛡️ **Ethical Data & Compliance Notice:**
-> This project is made only for **learning and non-commercial purposes**. To follow the platform's Terms of Service (ToS) and protect data privacy, **the raw scraped data, the specific selectors, and personal information (PII) are not uploaded** to this repository. This repository only shares anonymized, aggregated *insights* and synthetic sample data. *(See the full [Disclaimer & Ethical Considerations](#-disclaimer--ethical-considerations) at the bottom.)*
+> This project is made only for **learning and non-commercial purposes**. To follow the platform's Terms of Service (ToS) and protect data privacy, **the raw scraped data, the specific selectors, and personal information (PII) are not uploaded** to this repository. This repository only shares anonymized, and aggregated *insights*. *(See the full [Disclaimer & Ethical Considerations](#-disclaimer--ethical-considerations) at the bottom.)*
 
 ## 📌 Project Overview
 An end-to-end data analytics project analyzing the Indonesian skincare market (Sunscreen & Moisturizer) on Tokopedia. This project aims to uncover pricing strategies, market dominance, and the impact of store reputation on sales volume.
