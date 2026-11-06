@@ -1,8 +1,8 @@
 # 📊 Tokopedia Skincare Market Analysis: Moisturizer & Sunscreen
 
-![Dashboard Preview](dash_1.jpg)
-![Dashboard Preview](dash_2.jpg)
-![Dashboard Preview](dash_3.jpg)
+![Dashboard Preview](dash-1.jpg)
+![Dashboard Preview](dash-2.jpg)
+![Dashboard Preview](dash-3.jpg)
 
 > 🛡️ **Ethical Data & Compliance Notice:**
 > This project is made only for **learning and non-commercial purposes**. To follow the platform's Terms of Service (ToS) and protect data privacy, **the raw scraped data, the specific selectors, and personal information (PII) are not uploaded** to this repository. This repository only shares anonymized, and aggregated *insights*. *(See the full [Disclaimer & Ethical Considerations](#-disclaimer--ethical-considerations) at the bottom.)*
